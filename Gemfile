@@ -20,7 +20,7 @@ gem 'jbuilder', '~> 2.7'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use Active Model has_secure_password
-# gem 'bcrypt', '~> 3.1.7'
+ gem 'bcrypt', '~> 3.1.7'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
@@ -54,3 +54,19 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+#hirb es una gema extraordinaria que hace que usar la terminal para escribir consultas (queries) y buscar datos sea 1000 veces mejor. 
+#hirb coloca los resultados de la consulta en una tabla para que puedas ver los datos de manera más efectiva cuando estás dentro de la consola de Rails
+gem 'hirb'
+
+#hace màs facil el poder crear formularios
+gem 'simple_form'
+
+#puedes utilizar bootstrap en todo tu proyecto sin tener que usar cdn.
+gem 'bootstrap-sass'
+
+#hace mas facil el poder subir archivos
+gem 'carrierwave'
+
+
+gem 'rspec'
